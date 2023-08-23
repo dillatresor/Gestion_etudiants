@@ -1,0 +1,222 @@
+body {
+    background-color: rgb(241, 228, 212);
+}
+
+#container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    background-color: #f0f6f6;
+    box-shadow: 1px 1px 5px 0px rgb(194, 188, 188);
+}
+
+#banniere {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(206, 201, 201);
+    max-width: 100%;
+    background-color: white;
+    box-shadow: 1px 7px 0px 0px rgb(230, 227, 227);
+}
+
+.logo {
+    width: 50%;
+}
+
+.div-1 {
+    display: flex;
+    width: 25%;
+    height: 166px;
+    justify-content: start;
+}
+
+.div-2 {
+    display: flex;
+    width: 25%;
+    height: 166px;
+    justify-content: flex-end;
+}
+
+.welcom {
+    width: 50%;
+    text-align: center;
+    padding: 40px;
+    height: 166px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "high tower text";
+    font-size: 30px;
+    box-shadow: 1px 1px 10px 0px gray;
+    background-color: cornsilk;
+}
+
+.slogan {
+    font-family: "high tower text";
+    font-size: 25px;
+    color: red;
+}
+
+#navig {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "high tower text";
+    text-align: center;
+    font-size: 18px;
+}
+
+.contenu {
+    width: 20%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px rgb(194, 188, 188);
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px rgb(194, 188, 188);
+}
+
+.minifed {
+    width: 75%;
+}
+
+.global-content {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bienvenu {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "high tower text";
+}
+
+.sms {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "high tower text";
+    margin-bottom: 10px;
+}
+
+.cache {
+    width: 80%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 5px 0px rgb(194, 188, 188);
+}
+
+.nbr {
+    border: 1px solid rgb(160, 155, 155);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.c-nbr {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    padding: 10px;
+}
+
+.c-table {
+    margin: 20px;
+    width: 100%;
+}
+
+thead {
+    background-color: #f0f6f6;
+}
+
+.signe {
+    width: 65%;
+    height: 30px;
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(241, 211, 41);
+}
+
+.log2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(233, 69, 19);
+}
+
+.log3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(8, 238, 38);
+}
+
+.champ {
+    border: 0;
+    border-bottom: 2px Solid #10b3b9;
+    margin-bottom: 20px;
+}
+
+form label {
+    color: #10b3b9;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: cornsilk;
+    box-shadow: 1px 1px 10px 0px gray;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(244, 78, 41);
+}
+
+.t-gauche {
+    font-size: 20px;
+    font-style: italic;
+    color: #10b3b9;
+    font-family: "high tower text";
+}
+
+.t-droit {
+    font-size: 20px;
+    font-family: "time new roman";
+}
+
+.detail {
+    border-bottom: 2px Solid #10b3b9;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.v-image {
+    width: 350px;
+    height: 350px;
+    border: 2px Solid #10b3b9;
+    box-shadow: 1px 1px 10px 0px gray;
+}
+
+h3 a {
+    display: inline-block;
+}
