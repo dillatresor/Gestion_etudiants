@@ -20,43 +20,40 @@
         <div class="container" id="container">
             <div class="container" id="banniere">
                 <div class="div-1">
-                    <img src="font/picture/unnamed.jpg" alt="logo de gauche" class="logo">
+                    <img src="font/picture/Logo-Universite-Thomas-Sankara.png" alt="logo de gauche" class="logo">
                 </div>
                 <div class="welcom">
-                    <p>UNE PLATEFORME POUR LES ETUDIANTS</p>
+                    <p>UNIVERSITE THOMAS SANKARA</p>
                 </div>
 
-                
                 <div class="mt-3 pull-right d-flex">
                 <i class="fa fa-user mr-3 user"> <span class="ml-2"> <?= $user["statut"]; ?> </span> </i>
                 <button class="btn btn-info"> <a class="text-light" href="index.php"> Deconnexion </a> </button>
-            </div>  
-                
+            </div>
             </div>
 
            
 
-            <div class="bienvenu">BIENVENUE DANS GESTUDIANT</div>
+            <div class="bienvenu">BIENVENUE DANS GESTION ETUDIANTS</div>
             <div class="global-content">
                 <div class="contenu">
                     <aside class="d-flex flex-column p-3">
-                        <h3 id="navig">Menu</h3>
-                        <h3 class="btn btn-info p-3 m-1"> <a class="text-light h-100 w-100" href="view/visite/list.php"> ETUDIANTS </a> </h3>
-                        <h3 class="btn btn-info p-3 m-1"> <a class="text-light h-100 w-100" href="view/visiteur/list.php">FILIERES </a></h3>
-                        <h3 class="btn btn-info p-3 m-1"> <a class="text-light h-100 w-100" href="view/personnel/list.php"> NIVEAU D'ETUDE </a></h3>
-               
+                        <h3 id="navig">MENU</h3>
+                        <h3 class="btn btn-success p-3 m-1"> <a class="text-light h-100 w-100" href="view/etudiant/list.php"> ETUDIANT </a> </h3>
+                        <h3 class="btn btn-success p-3 m-1"> <a class="text-light h-100 w-100" href="view/filière/list.php"> FILIERE </a></h3>
+                        <h3 class="btn btn-success p-3 m-1"> <a class="text-light h-100 w-100" href="view/niveau_etude/list.php"> NIVEAU_ETUDE </a></h3>
+                       
                     </aside>
 
                 </div>
                 <div class="page">
-                    <img src="font/picture/thomas.png" alt="logo de droit" class="minifed">
+                    <img src="font/picture/Logo-Universite-Thomas-Sankara.png" alt="logo de droit" class="minifed">
                 </div>
             </div>
             <?php
             include('include/footer.php');
             ?>
-        </div>
-
+            </div>
     </body>
 
     </html>

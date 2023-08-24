@@ -1,3 +1,3 @@
 <footer class="foot ignore">
-    <h3>Copyright@ DGE 2021 </h3>
+    <h3>Copyright@ UTS-Warrior 2023  </h3>
 </footer>

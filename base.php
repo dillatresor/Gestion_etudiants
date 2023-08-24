@@ -2,7 +2,7 @@
 function bd()
 {
 try {
-$bdd= new PDO('mysql:host=localhost;dbname=bd_gestus','root','');
+$bdd= new PDO('mysql:host=localhost;dbname=gestion_etudiant','root','');
 
 } catch (Exception $e) {
 	$e->getMessage();

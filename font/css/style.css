@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(241, 228, 212);
+    background-color: rgb(212, 241, 232);
 }
 
 #container {
@@ -189,7 +189,7 @@ form label {
     display: flex;
     justify-content: center;
     font-size: 30px;
-    color: rgb(244, 78, 41);
+    color: rgb(102, 92, 236);
 }
 
 .t-gauche {
